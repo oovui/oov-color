@@ -2,7 +2,7 @@
   "name": "oov-color",
   "version": "0.1.0",
   "description": "a color scheme based sass/scss for oovui ui library",
-  "main": "oov-color.scss",
+  "main": "index.scss",
   "scripts": {
     "test": ""
   },
