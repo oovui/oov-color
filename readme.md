@@ -14,7 +14,7 @@ npm install oov-color --save
 
 # Usage
 
-Import the file to your project and use the variables.
+Import the file to your project and use the variables and class.
 
 Just for SCSS
 
