@@ -1,22 +1,19 @@
 {
   "name": "oov-color",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a color scheme based sass/scss for oovui ui library",
   "main": "index.scss",
   "scripts": {
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oovui/oov-color.git"
   },
-  "keywords": [
-    "color",
-    "colorscheme",
-    "oovui",
-    "SCSS",
-    "CSS"
-  ],
   "author": "leeson8888 <370424110@qq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oovui/oov-color/issues"
+  },
+  "homepage": "https://github.com/oovui/oov-color#readme"
 }
