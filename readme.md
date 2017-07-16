@@ -28,7 +28,7 @@ body{
 }
 
 ```
-### Or use oov-color with webpack  (Recommand)
+### Or use oov-color with webpack  (Recommend)
 
 ```scss
 // https://www.npmjs.com/package/sass-loader
