@@ -1,0 +1,279 @@
+//  General
+//  ───────────────────────────────────
+
+$oov-c-white:         #ffffff;
+$oov-c-black:         #000000;
+
+
+// Color，基于ant.design的9种色彩，10种渐变,其中：6为品牌色
+
+// Red:热情、警示
+
+// -------------------------- Map 
+$oov-c-red-list:(
+  1:#fef0ef,
+  2:#fcdbd9,
+  3:#fabeb9,
+  4:#f79992,
+  5:#f46e65,
+  6:#f04134,
+  7:#d73435,
+  8:#bd2636,
+  9:#a31837,
+  10:#880a38
+);
+
+$oov-c-red:    map-get($oov-c-red-list, 6);
+
+$oov-c-red-1:  map-get($oov-c-red-list, 1);
+$oov-c-red-2:  map-get($oov-c-red-list, 2);
+$oov-c-red-3:  map-get($oov-c-red-list, 3);
+$oov-c-red-4:  map-get($oov-c-red-list, 4);
+$oov-c-red-5:  map-get($oov-c-red-list, 5);
+$oov-c-red-6:  map-get($oov-c-red-list, 6);
+$oov-c-red-7:  map-get($oov-c-red-list, 7);
+$oov-c-red-8:  map-get($oov-c-red-list, 8);
+$oov-c-red-9:  map-get($oov-c-red-list, 9);
+$oov-c-red-10: map-get($oov-c-red-list, 10);
+
+
+
+//Green:成功、通过、安全
+
+// -------------------------- Map 
+$oov-c-green-list:(
+  1:#ebf8f2,
+  2:#cfefdf,
+  3:#a7e1c4,
+  4:#76d0a3,
+  5:#3dbd7d,
+  6:#00a854,
+  7:#00924c,
+  8:#007b43,
+  9:#00643b,
+  10:#004c32
+);
+
+$oov-c-green:    map-get($oov-c-green-list, 6);
+
+$oov-c-green-1:  map-get($oov-c-green-list, 1);
+$oov-c-green-2:  map-get($oov-c-green-list, 2);
+$oov-c-green-3:  map-get($oov-c-green-list, 3);
+$oov-c-green-4:  map-get($oov-c-green-list, 4);
+$oov-c-green-5:  map-get($oov-c-green-list, 5);
+$oov-c-green-6:  map-get($oov-c-green-list, 6);
+$oov-c-green-7:  map-get($oov-c-green-list, 7);
+$oov-c-green-8:  map-get($oov-c-green-list, 8);
+$oov-c-green-9:  map-get($oov-c-green-list, 9);
+$oov-c-green-10: map-get($oov-c-green-list, 10);
+
+
+
+//blue:专业、科技
+
+// -------------------------- Map 
+$oov-c-blue-list:(
+  1:#ecf6fd,
+  2:#d2eafb,
+  3:#add8f7,
+  4:#7ec2f3,
+  5:#49a9ee,
+  6:#108ee9,
+  7:#0e77ca,
+  8:#0c60aa,
+  9:#09488a,
+  10:#073069
+);
+
+$oov-c-blue:     map-get($oov-c-blue-list, 6);
+
+$oov-c-blue-1:  map-get($oov-c-blue-list, 1);
+$oov-c-blue-2:  map-get($oov-c-blue-list, 2);
+$oov-c-blue-3:  map-get($oov-c-blue-list, 3);
+$oov-c-blue-4:  map-get($oov-c-blue-list, 4);
+$oov-c-blue-5:  map-get($oov-c-blue-list, 5);
+$oov-c-blue-6:  map-get($oov-c-blue-list, 6);
+$oov-c-blue-7:  map-get($oov-c-blue-list, 7);
+$oov-c-blue-8:  map-get($oov-c-blue-list, 8);
+$oov-c-blue-9:  map-get($oov-c-blue-list, 9);
+$oov-c-blue-10: map-get($oov-c-blue-list, 10);
+
+
+
+
+//Pink:典雅、明快、女性
+
+// -------------------------- Map 
+$oov-c-pink-list:(
+  1:#feeff5,
+  2:#fdd8e7,
+  3:#fcb8d3,
+  4:#fa90ba,
+  5:#f7629e,
+  6:#f5317f,
+  7:#dc277d,
+  8:#c11c7b,
+  9:#a71278,
+  10:#8c0776
+);
+
+$oov-c-pink:     map-get($oov-c-pink-list, 6);
+
+$oov-c-pink-1:  map-get($oov-c-pink-list, 1);
+$oov-c-pink-2:  map-get($oov-c-pink-list, 2);
+$oov-c-pink-3:  map-get($oov-c-pink-list, 3);
+$oov-c-pink-4:  map-get($oov-c-pink-list, 4);
+$oov-c-pink-5:  map-get($oov-c-pink-list, 5);
+$oov-c-pink-6:  map-get($oov-c-pink-list, 6);
+$oov-c-pink-7:  map-get($oov-c-pink-list, 7);
+$oov-c-pink-8:  map-get($oov-c-pink-list, 8);
+$oov-c-pink-9:  map-get($oov-c-pink-list, 9);
+$oov-c-pink-10: map-get($oov-c-pink-list, 10);
+
+
+//orange:醒目、温暖
+// -------------------------- Map 
+$oov-c-orange-list:(
+  1:#fef3eb,
+  2:#fde3cf,
+  3:#fccca7,
+  4:#faaf76,
+  5:#f78e3d,
+  6:#f56a00,
+  7:#d75000,
+  8:#b93600,
+  9:#991b00,
+  10:#7a0000
+);
+
+$oov-c-orange:     map-get($oov-c-orange-list, 6);
+
+$oov-c-orange-1:  map-get($oov-c-orange-list, 1);
+$oov-c-orange-2:  map-get($oov-c-orange-list, 2);
+$oov-c-orange-3:  map-get($oov-c-orange-list, 3);
+$oov-c-orange-4:  map-get($oov-c-orange-list, 4);
+$oov-c-orange-5:  map-get($oov-c-orange-list, 5);
+$oov-c-orange-6:  map-get($oov-c-orange-list, 6);
+$oov-c-orange-7:  map-get($oov-c-orange-list, 7);
+$oov-c-orange-8:  map-get($oov-c-orange-list, 8);
+$oov-c-orange-9:  map-get($oov-c-orange-list, 9);
+$oov-c-orange-10: map-get($oov-c-orange-list, 10);
+
+
+
+//Purple:高雅、浪漫
+// -------------------------- Map 
+$oov-c-purple-list:(
+  1:#f4f3fd,
+  2:#e4e2fa,
+  3:#cfcaf6,
+  4:#b3acf2,
+  5:#948aec,
+  6:#7265e6,
+  7:#6252cd,
+  8:#533eb4,
+  9:#42299a,
+  10:#321580
+);
+
+$oov-c-purple:     map-get($oov-c-purple-list, 6);
+
+$oov-c-purple-1:  map-get($oov-c-purple-list, 1);
+$oov-c-purple-2:  map-get($oov-c-purple-list, 2);
+$oov-c-purple-3:  map-get($oov-c-purple-list, 3);
+$oov-c-purple-4:  map-get($oov-c-purple-list, 4);
+$oov-c-purple-5:  map-get($oov-c-purple-list, 5);
+$oov-c-purple-6:  map-get($oov-c-purple-list, 6);
+$oov-c-purple-7:  map-get($oov-c-purple-list, 7);
+$oov-c-purple-8:  map-get($oov-c-purple-list, 8);
+$oov-c-purple-9:  map-get($oov-c-purple-list, 9);
+$oov-c-purple-10: map-get($oov-c-purple-list, 10);
+
+
+//Yellow:活力、提示
+// -------------------------- Map 
+$oov-c-yellow-list:(
+  1:#fffaeb,
+  2:#fff3cf,
+  3:#ffe9a7,
+  4:#ffdd76,
+  5:#ffce3d,
+  6:#ffbf00,
+  7:#e09a00,
+  8:#c17500,
+  9:#a04f00,
+  10:#802800
+);
+
+$oov-c-yellow:     map-get($oov-c-yellow-list, 6);
+
+$oov-c-yellow-1:  map-get($oov-c-yellow-list, 1);
+$oov-c-yellow-2:  map-get($oov-c-yellow-list, 2);
+$oov-c-yellow-3:  map-get($oov-c-yellow-list, 3);
+$oov-c-yellow-4:  map-get($oov-c-yellow-list, 4);
+$oov-c-yellow-5:  map-get($oov-c-yellow-list, 5);
+$oov-c-yellow-6:  map-get($oov-c-yellow-list, 6);
+$oov-c-yellow-7:  map-get($oov-c-yellow-list, 7);
+$oov-c-yellow-8:  map-get($oov-c-yellow-list, 8);
+$oov-c-yellow-9:  map-get($oov-c-yellow-list, 9);
+$oov-c-yellow-10: map-get($oov-c-yellow-list, 10);
+
+
+
+//Cyan:清新、冷静、结构化
+// -------------------------- Map 
+$oov-c-cyan-list:(
+  1:#ebf8f9,
+  2:#cfedf0,
+  3:#a7dfe3,
+  4:#76cdd3,
+  5:#3db8c1,
+  6:#00a2ae,
+  7:#008997,
+  8:#00707f,
+  9:#005667,
+  10:#003c4e
+);
+
+$oov-c-cyan:     map-get($oov-c-cyan-list, 6);
+
+$oov-c-cyan-1:  map-get($oov-c-cyan-list, 1);
+$oov-c-cyan-2:  map-get($oov-c-cyan-list, 2);
+$oov-c-cyan-3:  map-get($oov-c-cyan-list, 3);
+$oov-c-cyan-4:  map-get($oov-c-cyan-list, 4);
+$oov-c-cyan-5:  map-get($oov-c-cyan-list, 5);
+$oov-c-cyan-6:  map-get($oov-c-cyan-list, 6);
+$oov-c-cyan-7:  map-get($oov-c-cyan-list, 7);
+$oov-c-cyan-8:  map-get($oov-c-cyan-list, 8);
+$oov-c-cyan-9:  map-get($oov-c-cyan-list, 9);
+$oov-c-cyan-10: map-get($oov-c-cyan-list, 10);
+
+
+
+//Grey:平稳、中性
+// -------------------------- Map 
+$oov-c-grey-list:(
+  1:#fbfbfb,
+  2:#fbfbfb,
+  3:#f5f5f5,
+  4:#e9e9e9,
+  5:#d9d9d9,
+  6:#bfbfbf,
+  7:#919191,
+  8:#5a5a5a,
+  9:#404040,
+  10:#222222
+);
+
+$oov-c-grey:     map-get($oov-c-grey-list, 6);
+
+$oov-c-grey-1:  map-get($oov-c-grey-list, 1);
+$oov-c-grey-2:  map-get($oov-c-grey-list, 2);
+$oov-c-grey-3:  map-get($oov-c-grey-list, 3);
+$oov-c-grey-4:  map-get($oov-c-grey-list, 4);
+$oov-c-grey-5:  map-get($oov-c-grey-list, 5);
+$oov-c-grey-6:  map-get($oov-c-grey-list, 6);
+$oov-c-grey-7:  map-get($oov-c-grey-list, 7);
+$oov-c-grey-8:  map-get($oov-c-grey-list, 8);
+$oov-c-grey-9:  map-get($oov-c-grey-list, 9);
+$oov-c-grey-10: map-get($oov-c-grey-list, 10);
